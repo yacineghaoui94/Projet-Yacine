@@ -3,21 +3,18 @@ import UserForm from "./userforme/UserForm.jsx";
 import styled from "styled-components";
 
 const Regroupement = styled.div`
-  width: 500px;
-  height: 500px;
-
-  flex-grow: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
-  // padding: 110px;
-  background-color: #27416b;
-  border-radius: 100px;
+  padding: 20px;
+  gap: 16px;
+
+  background: #27426b;
+  border-radius: 50px 0px;
   position: absolute;
-  top: 10px;
-  left: 250px;
+  top: 100px;
+  left: 700px;
 `;
 
 function App() {
